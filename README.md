@@ -1,4 +1,4 @@
-# g1: Using Llama-3.1 70b on Groq to create o1-like reasoning chains
+# g1-open: Using OpenAI Compatible LLMs to create o1-like reasoning chains
 
 [Video Demo](https://github.com/user-attachments/assets/db2a221f-f8eb-48c3-b5a7-8399c6300243)
 
@@ -48,7 +48,9 @@ pip3 install -r requirements.txt
 ~~~
 
 ~~~
-export GROQ_API_KEY=gsk...
+export OPENAI_BASE_URL=https://api.openai.com # replace with your base URL. Could be ollama, etc.
+export OPENAI_API_KEY=YOUR_KEY_HERE
+export OPENAI_MODEL=gpt-4o # could be mistral-nemo, llama3, etc depending on your API
 ~~~
 
 ~~~
